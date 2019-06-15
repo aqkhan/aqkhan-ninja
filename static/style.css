@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Zilla+Slab+Highlight&display=swap');
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1rem;
+    padding: 7px 15px;
+    line-height: 1.5
+}
+
+.strangerFont {
+    font-family: 'Zilla Slab Highlight', cursive;
+    font-size: 5rem;
+    font-weight: normal;
+}
+
+.casualFont {
+    text-align: center;
+}
+
+.smallFontSize {
+    font-size: 3.5rem
+}
+
+.contentArea {
+    width: 50%;
+    height: 100%;
+    float: right;
+    background-color: #ffffffcf;
+    overflow: auto;
+}
+
+.navigation {
+    float: left;
+}
+
+/* Background Image */
+body, html {
+    height: 100%;
+    margin: 0!important;
+    overflow: hidden;
+  }
+  
+  #__next {
+    /* The image used */
+    background-image: url("/static/images/aqk_in_the_jungle.jpg");
+    background-color: white;
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
