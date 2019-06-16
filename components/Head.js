@@ -11,6 +11,7 @@ export default ( { title } ) => {
                 <meta name="keywords" content="CTO,gun for hire,team lead,alpha squad,iintellect,i-Intellect,aqkhan,a q khan,arslan khan,balls to the wall"></meta>
                 {/* Facebook */}
                 <meta property="og:type" content="website" />
+                <meta property="og:title" content="Arslan Khan | Chief Technology Officer" />
                 <meta property="og:url" content="https://aqkhan.ninja/" />
                 <meta property="og:title" content="Arslan Khan | Chief Technology Officer" />
                 <meta property="og:description" content="Veteran CTO. Founder/Owner Alpha Squad and i-Intellect. Balls to the wall." />
