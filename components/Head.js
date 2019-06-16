@@ -17,7 +17,7 @@ export default ( { title } ) => {
                 <meta property="og:image" content="https://avatars1.githubusercontent.com/u/4011536?s=460&v=4"></meta>
                 {/* Twitter */}
                 <meta property="twitter:card" content="summary_large_image" />
-                <meta property="twitter:url" content="http://aqkhan.ninja/" />
+                <meta property="twitter:url" content="https://aqkhan.ninja/" />
                 <meta property="twitter:title" content="Arslan Khan | Chief Technology Officer" />
                 <meta property="twitter:description" content="Tom Brady of developers" />
                 <meta property="twitter:image" content="https://avatars1.githubusercontent.com/u/4011536?s=460&v=4"></meta>
