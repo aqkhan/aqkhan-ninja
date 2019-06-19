@@ -8,7 +8,7 @@ export default function index() {
         <React.Fragment>
             <Head title="Chief Technology Officer" />
             <Navigation />
-            <Hero />
+            <Hero imageUrl="/static/images/aqk_in_the_jungle.jpg" />
         </React.Fragment>
     )
 }
