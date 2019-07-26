@@ -1,11 +1,19 @@
+import Navigation from '../components/Navigation';
+
 export default function Hero(props) {
     let { imageUrl, children } = props;
     return (
         <div className="contentArea" style={{backgroundImage: "url("+imageUrl+")"}}>
             <div className="wrapperDiv">
-                {
-                    children
-                }
+                    <div className="leftArea"></div>
+                        <div className="rightArea">
+                            <div className="content">
+                                <Navigation />
+                                    {
+                                        children
+                                    }
+                            </div>
+                    </div>
             </div>
         </div>
     )

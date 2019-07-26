@@ -1,5 +1,11 @@
+import Link from 'next/link';
+
 export default () => (
     <div className="navigation">
-        {/* <p className="strangerFont smallFontSize" style={{ textAlign: "center", marginTop: 0 }}>Work | Contact</p> */}
+        <ul>
+            <li><Link href="/"><a>Home</a></Link></li>
+            <li><Link href="/work"><a>Work</a></Link></li>
+            <li><Link href="/contact"><a>Contact</a></Link></li>
+        </ul>
     </div>
 )
