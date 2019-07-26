@@ -6,7 +6,7 @@ export default function index() {
     return (
         <React.Fragment>
             <Head title="Portfolio" />
-            <Hero imageUrl="/static/images/aqk_in_the_jungle.jpg" 
+            <Hero imageUrl="/static/images/fly.jpg" 
                 children={
                     <>
                         <h2>Well, here it is</h2>
